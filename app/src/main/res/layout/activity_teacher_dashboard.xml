@@ -14,21 +14,22 @@
         android:layout_marginLeft="22dp"
         android:layout_marginTop="196dp"
         android:layout_marginRight="22dp"
-        android:background="#F3F6F3"
         android:drawableStart="@drawable/username2"
         android:drawablePadding="8dp"
         android:ems="10"
+        android:elevation="35dp"
+        android:background="@drawable/myrect"
         android:fontFamily="@font/aclonica"
-
-        android:hint="Registration Number"
+        android:hint="@string/registration_number"
         android:inputType="textPersonName"
         android:padding="8dp"
-        android:textColor="#090505"
+        android:textColor="@android:color/darker_gray"
         android:textColorHint="#090505"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
@@ -37,20 +38,22 @@
         android:layout_marginLeft="22dp"
         android:layout_marginTop="280dp"
         android:layout_marginRight="22dp"
-        android:background="#F3F6F3"
         android:drawableStart="@drawable/password"
         android:drawablePadding="8dp"
         android:ems="10"
+        android:elevation="35dp"
+        android:background="@drawable/myrect"
         android:fontFamily="@font/aclonica"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
         android:padding="8dp"
-        android:textColor="#040202"
+        android:textColor="@android:color/darker_gray"
         android:textColorHint="#0C0505"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill" />
 
     <Button
         android:id="@+id/button4"
@@ -61,7 +64,7 @@
         android:layout_marginBottom="244dp"
         android:background="#08EC14"
         android:fontFamily="@font/aclonica"
-        android:text="Submit"
+        android:text="@string/submit"
         android:textColor="#1813A2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,11 +88,12 @@
         android:background="#1813A2"
         android:minHeight="?attr/actionBarSize"
         android:padding="8dp"
-        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry" />
 
     <TextView
         android:id="@+id/textView4"
@@ -97,8 +101,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/aclonica"
-        android:text="Teacher's Login"
-        android:textColor="#0C0909"
+        android:text="@string/teacher_s_login"
+        android:textColor="@android:color/white"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

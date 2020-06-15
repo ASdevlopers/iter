@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Iter</string>
+    <string name="welcome">WELCOME</string>
+    <string name="enter_as_student">enter as student</string>
+    <string name="enter_as_teacher">enter as teacher</string>
+    <string name="username">Registration Number</string>
+    <string name="Enter_password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="student_s_login">Student\'s Login</string>
+    <string name="registration_number">Registration Number</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="teacher_s_login">Teacher\'s Login</string>
+    <string name="AS">AS</string>
 </resources>

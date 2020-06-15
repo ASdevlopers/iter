@@ -14,12 +14,13 @@
         android:layout_marginLeft="22dp"
         android:layout_marginTop="192dp"
         android:layout_marginRight="22dp"
-        android:background="#F5F8F6"
+        android:elevation="35dp"
+        android:background="@drawable/myrect"
         android:drawableStart="@drawable/username2"
         android:drawablePadding="8dp"
         android:ems="10"
         android:fontFamily="@font/aclonica"
-        android:hint="Username"
+        android:hint="@string/username"
         android:inputType="textPersonName"
         android:padding="8dp"
         android:textColor="#020101"
@@ -27,7 +28,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -36,12 +38,13 @@
         android:layout_marginLeft="22dp"
         android:layout_marginTop="276dp"
         android:layout_marginRight="22dp"
-        android:background="#F3F6F3"
+        android:elevation="35dp"
+        android:background="@drawable/myrect"
         android:drawableStart="@drawable/password"
         android:drawablePadding="10dp"
         android:ems="10"
         android:fontFamily="@font/aclonica"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
         android:padding="8dp"
         android:textColor="#150E0E"
@@ -49,7 +52,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill" />
 
     <Button
         android:id="@+id/button3"
@@ -60,7 +64,7 @@
         android:layout_marginBottom="244dp"
         android:background="#08EC14"
         android:fontFamily="@font/aclonica"
-        android:text="LOGIN"
+        android:text="@string/login"
         android:textColor="#1813A2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -84,11 +88,12 @@
         android:background="#1813A2"
         android:minHeight="?attr/actionBarSize"
         android:padding="8dp"
-        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlSymmetry" />
 
     <TextView
         android:id="@+id/textView3"
@@ -96,8 +101,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/aclonica"
-        android:text="Student's Login"
-        android:textColor="#120909"
+        android:text="@string/student_s_login"
+        android:textColor="@android:color/white"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
